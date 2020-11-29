@@ -12,7 +12,7 @@ namespace Catalog.Data.Entities
         [StringLength(100)]
         public  string Name { get; set; }
 
-
+        public int MeasureId { get; set; }
 
     }
 }
